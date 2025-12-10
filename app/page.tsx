@@ -4,7 +4,7 @@
 
 import { useState } from "react"
 import Image from "next/image"
-import PaysofterLogo from "./assets/paysofter-logo.png"
+import softglobalLogo from "./assets/softglobal-logo.png"
 
 const Home = () => {
   const [question, setQuestion] = useState("")
@@ -35,7 +35,7 @@ const Home = () => {
 
   return (
     <main style={{ padding: "2rem", fontFamily: "sans-serif" }}>
-      <Image src={PaysofterLogo} width={250} alt="Paysofter Logo" />
+      <Image src={softglobalLogo} width={250} alt="Softglobal Logo" />
 
       <h1>Brand Q&A Assistant</h1>
 
@@ -69,14 +69,14 @@ export default Home
 // "use client"
 
 // import Image from "next/image"
-// import PaysofterLogo from "./assets/paysofter-logo.png"
+// import softglobalLogo from "./assets/paysofter-logo.png"
 // import { useChat } from "ai/react"
 // import { Message } from "ai" 
 
 // const Home = () => {
 //   return (
 //     <main>
-//       <Image src={PaysofterLogo} width="250" alt="Paysofter Logo"/>
+//       <Image src={softglobalLogo} width="250" alt="Softglobal Logo"/>
 //     </main>
 //   )
 // }
