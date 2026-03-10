@@ -64,21 +64,3 @@ const Home = () => {
 }
 
 export default Home 
-
-
-// "use client"
-
-// import Image from "next/image"
-// import softglobalLogo from "./assets/paysofter-logo.png"
-// import { useChat } from "ai/react"
-// import { Message } from "ai" 
-
-// const Home = () => {
-//   return (
-//     <main>
-//       <Image src={softglobalLogo} width="250" alt="Softglobal Logo"/>
-//     </main>
-//   )
-// }
-
-// export default Home
