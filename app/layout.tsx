@@ -1,7 +1,7 @@
  import "./global.css" 
 
 export const metadata = {
-  title: "Paysofter AI",
+  title: "SoftAI",
   description: "The place to go for all your Softglobal questions!"
 }
 
